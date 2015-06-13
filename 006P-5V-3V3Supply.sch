@@ -14181,8 +14181,8 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="IC1" library="linear" deviceset="78*" device="T" technology="05"/>
 <part name="IC2" library="linear" deviceset="78*" device="TV" technology="05" value="TM48M033F"/>
-<part name="D1" library="diode" deviceset="1N4004" device=""/>
-<part name="D2" library="diode" deviceset="1N4004" device=""/>
+<part name="D1" library="diode" deviceset="1N4004" device="" value="1N4007"/>
+<part name="D2" library="diode" deviceset="1N4004" device="" value="1N4007"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="TT2D4L" value="10uF"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="TT2D5L" value="47uF"/>
 <part name="C3" library="rcl" deviceset="CPOL-EU" device="TT2D5L" value="47uF"/>
@@ -14191,7 +14191,7 @@ Source: www.kingbright.com</description>
 <part name="C6" library="rcl" deviceset="C-EU" device="025-024X044" value="0.1uF"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="025-024X044" value="0.1uF"/>
 <part name="OUT" library="con-wago-508" deviceset="W237-03P" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="1k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/7" value="10k"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="9VIN" library="con-wago-508" deviceset="W237-02P" device=""/>
 </parts>
